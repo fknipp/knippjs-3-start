@@ -3,7 +3,7 @@ import ViteExpress from 'vite-express';
 import { createServer } from 'vite';
 
 const app = express();
-const port = 3010;
+const port = 5173;
 
 /* Add your server routes here */
 
