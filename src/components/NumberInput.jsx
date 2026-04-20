@@ -1,5 +1,5 @@
 function NumberInput({ number, setNumber }) {
-  const handleChange = (e) => setNumber(e.target.valueAsNumber);
+  const handleChange = (e) => setNumber(parseInt(e.target.value));
 
   return (
     <input type="number" value={number} onChange={handleChange} />
